@@ -1,7 +1,7 @@
 # Linked List
 ![image](Pictures/linked_link_chart.png)
 
-A Linked List functions similarly to a normal list. However each item, or node, has three things contained in them.
+A linked list functions similarly to a normal list. However each item, or node, has three things contained in them.
 1. its value
 2. the location pointer to the previous node
 3. the location pointer to the next node
