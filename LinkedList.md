@@ -6,7 +6,12 @@ A Linked List functions similarly to a normal list. However each item, or node, 
 2. the location pointer to the previous node
 3. the location pointer to the next node
 
-If there is not a previous node, then that is called the "head" If there is not a next node, then that is the "tail". See figure below.
+If there is not a previous node, then that is called the "head" If there is not a next node, then that is the "tail".
 
-## Visual Exaple
+To help with visualiztion, imagine that a linked list is identical to a chain.
+
+Chains are made up of individual links. Each link can be connected to another link on either side. That is just Linked Lists work as well. See figure below.
+
+## Visual Example
 ![image](Pictures/chain_links_chart.png)
+
