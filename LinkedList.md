@@ -1,4 +1,10 @@
 # Linked List
+
+## [Home](README.MD)
+* [Stack](Stack.md)
+* [Linked List](LinkedList.md)
+* [Tree](Tree.md)
+
 ![image](Pictures/linked_link_chart.png)
 
 A linked list functions similarly to a normal list. However each item, or node, has three things contained in them.

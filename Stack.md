@@ -1,4 +1,4 @@
-# Exploring DataBases
+# Stack
 
 ## [Home](README.MD)
 * [Stack](Stack.md)
