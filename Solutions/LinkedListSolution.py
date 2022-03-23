@@ -191,52 +191,49 @@ class LinkedList:
 
 
 """
-use the linked list commands above to solve the problems below
+re-order the linked list inside the function to show the colors of the rainbow in this order:
+[red, orange, yellow, green, blue, indigo, violet]
+Use linked list commands.
 """
+
+def impliment_LL(linkedlist):
+    """
+    Write your code below to change the linked list to 
+    reflect the proper order of the colors
+    """
+    
+    linkedlist.replace("black", "blue")
+    linkedlist.remove_head()
+    linkedlist.insert_head("yellow")
+    linkedlist.insert_head("orange")
+    linkedlist.insert_head("red")
+    linkedlist.remove_tail()
+    linkedlist.remove_tail()
+    linkedlist.remove_tail()
+    linkedlist.remove_tail()
+    linkedlist.insert_tail("indigo")
+    linkedlist.insert_tail("violet")
+
+    return linkedlist
+
+
+
+
+################################
+# Do not change the code below #
+################################
+
 linkedlist = LinkedList()
+linkedlist.insert_tail("red")
+linkedlist.insert_tail("green")
+linkedlist.insert_tail("black")
+linkedlist.insert_tail("violet")
+linkedlist.insert_tail("yellow")
+linkedlist.insert_tail("gray")
+linkedlist.insert_tail("pink")
 
-
-print("\n=========== PROBLEM 1 TESTS ===========")
-# create a linked list containing from head to tail:
-# 5, 11, 8, 23, 17, 16, 1 and then print it
-linkedlist.insert_tail(23)
-linkedlist.insert_head(8)
-linkedlist.insert_head(11)
-linkedlist.insert_head(5)
-linkedlist.insert_tail(17)
-linkedlist.insert_tail(16)
-linkedlist.insert_tail(1)
-
+print("\n=========== Original LinkedList ===========\n")
 print(linkedlist)
-print("\n=========== PROBLEM 2 TESTS ===========")
-# remove head
-# remove tail
-# add 45 to the head
-# add 12 to the tail
-linkedlist.remove_head()
-linkedlist.remove_tail()
-linkedlist.insert_head(45)
-linkedlist.insert_tail(12)
-
-print(linkedlist)
-print("\n=========== PROBLEM 3 TESTS ===========")
-# add 65 after 8
-# add 6 after 65
-linkedlist.insert_after(8, 65)
-linkedlist.insert_after(65, 6)
-
-print(linkedlist)
-print("\n=========== PROBLEM 4 TESTS ===========")
-# remove 17
-# remove 23
-linkedlist.remove(17)
-linkedlist.remove(23)
-
-print(linkedlist)
-print("\n=========== PROBLEM 5 TESTS ===========")
-# replace 65 with 1
-# replace 16 with 41
-linkedlist.replace(65, 1)
-linkedlist.replace(15, 41)
-
-print(linkedlist)
+print("\n=========== Edited LinkedList ===========")
+linkedlist = impliment_LL(linkedlist)
+print(linkedlist) # should display [red, orange, yellow, green, blue, indigo, violet]

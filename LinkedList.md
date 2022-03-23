@@ -42,7 +42,7 @@ The chart below contains common linked list operations and their performance spe
 ![image](Pictures/linked_o.png)
 
 # Problem
-Use the linked list class in the file below to complete the tasks that are given. Complete problem 1-5 at the bottom.
+Use the linked list class in the file below to complete the function to reorder and format a linked list and return it.
 
 [Linked List Problem](Problems/LinkedListEx.py)
 
