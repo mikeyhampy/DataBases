@@ -227,7 +227,7 @@ print("\n=========== PROBLEM 4 TESTS ===========")
 print(linkedlist)
 print("\n=========== PROBLEM 5 TESTS ===========")
 # replace 65 with 1
-# replace 45 with 41
+# replace 16 with 41
 
 
 

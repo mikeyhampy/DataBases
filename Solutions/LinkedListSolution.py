@@ -235,8 +235,8 @@ linkedlist.remove(23)
 print(linkedlist)
 print("\n=========== PROBLEM 5 TESTS ===========")
 # replace 65 with 1
-# replace 45 with 41
+# replace 16 with 41
 linkedlist.replace(65, 1)
-linkedlist.replace(45, 41)
+linkedlist.replace(15, 41)
 
 print(linkedlist)
