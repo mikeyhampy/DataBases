@@ -189,5 +189,46 @@ class LinkedList:
         output += "]"
         return output
 
+"""
+use the linked list commands above to solve the problems below
+"""
+linkedlist = LinkedList()
 
 
+print("\n=========== PROBLEM 1 TESTS ===========")
+# create a linked list containing from head to tail:
+# 5, 11, 8, 23, 17, 16, 1 and then print it
+
+
+
+print(linkedlist)
+print("\n=========== PROBLEM 2 TESTS ===========")
+# remove head
+# remove tail
+# add 45 to the head
+# add 12 to the tail
+
+
+
+print(linkedlist)
+print("\n=========== PROBLEM 3 TESTS ===========")
+# add 65 after 8
+# add 6 after 65
+
+
+
+print(linkedlist)
+print("\n=========== PROBLEM 4 TESTS ===========")
+# remove 17
+# remove 23
+
+
+
+print(linkedlist)
+print("\n=========== PROBLEM 5 TESTS ===========")
+# replace 65 with 1
+# replace 45 with 41
+
+
+
+print(linkedlist)

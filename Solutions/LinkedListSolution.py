@@ -188,3 +188,55 @@ class LinkedList:
             output += str(value)
         output += "]"
         return output
+
+
+"""
+use the linked list commands above to solve the problems below
+"""
+linkedlist = LinkedList()
+
+
+print("\n=========== PROBLEM 1 TESTS ===========")
+# create a linked list containing from head to tail:
+# 5, 11, 8, 23, 17, 16, 1 and then print it
+linkedlist.insert_tail(23)
+linkedlist.insert_head(8)
+linkedlist.insert_head(11)
+linkedlist.insert_head(5)
+linkedlist.insert_tail(17)
+linkedlist.insert_tail(16)
+linkedlist.insert_tail(1)
+
+print(linkedlist)
+print("\n=========== PROBLEM 2 TESTS ===========")
+# remove head
+# remove tail
+# add 45 to the head
+# add 12 to the tail
+linkedlist.remove_head()
+linkedlist.remove_tail()
+linkedlist.insert_head(45)
+linkedlist.insert_tail(12)
+
+print(linkedlist)
+print("\n=========== PROBLEM 3 TESTS ===========")
+# add 65 after 8
+# add 6 after 65
+linkedlist.insert_after(8, 65)
+linkedlist.insert_after(65, 6)
+
+print(linkedlist)
+print("\n=========== PROBLEM 4 TESTS ===========")
+# remove 17
+# remove 23
+linkedlist.remove(17)
+linkedlist.remove(23)
+
+print(linkedlist)
+print("\n=========== PROBLEM 5 TESTS ===========")
+# replace 65 with 1
+# replace 45 with 41
+linkedlist.replace(65, 1)
+linkedlist.replace(45, 41)
+
+print(linkedlist)
