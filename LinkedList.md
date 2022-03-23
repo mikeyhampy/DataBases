@@ -41,7 +41,7 @@ The chart below contains common linked list operations and their performance spe
 
 ![image](Pictures/linked_o.png)
 
-# problem
+# Problem
 These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
 
 [Problem File](http://url.link.goes.here)
