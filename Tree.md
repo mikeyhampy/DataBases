@@ -37,4 +37,4 @@ These are instructions these are instructions these are instructions these are i
 [Tree Problem](Problems/TreeEx.py)
 
 # Solution
-[Tree Solution](Problems/TreeSolution.py)
+[Tree Solution](Solutions/TreeSolution.py)

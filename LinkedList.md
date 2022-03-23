@@ -47,4 +47,4 @@ These are instructions these are instructions these are instructions these are i
 [Linked List Problem](Problems/LinkedListEx.py)
 
 # Solution
-[Linked List Solution](Problems/LinkedListSolution.py)
+[Linked List Solution](Solutions/LinkedListSolution.py)

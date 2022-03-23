@@ -23,4 +23,4 @@ These are instructions these are instructions these are instructions these are i
 [Stack Problem](Problems/StackEx.py)
 
 # Solution
-[Stack Solution](Problems/StackSolution.py)
+[Stack Solution](Solutions/StackSolution.py)
