@@ -20,7 +20,7 @@ All actions used in association to a stack have a speed of O(n). Common uses tha
 # Problem
 These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
 
-[Problem File](http://url.link.goes.here)
+[Stack Problem](Problems/StackEx.py)
 
 # Solution
-[Solution File](http://url.link.goes.here)
+[Stack Solution](Problems/StackSolution.py)

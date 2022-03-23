@@ -44,7 +44,7 @@ The chart below contains common linked list operations and their performance spe
 # Problem
 These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
 
-[Problem File](http://url.link.goes.here)
+[Linked List Problem](Problems/LinkedListEx.py)
 
 # Solution
-[Solution File](http://url.link.goes.here)
+[Linked List Solution](Problems/LinkedListSolution.py)

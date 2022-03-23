@@ -34,7 +34,7 @@ Removing a node will go the same way with searching for the node like before. On
 # Problem
 These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
 
-[Problem File](http://url.link.goes.here)
+[Tree Problem](Problems/TreeEx.py)
 
 # Solution
-[Solution File](http://url.link.goes.here)
+[Tree Solution](Problems/TreeSolution.py)
