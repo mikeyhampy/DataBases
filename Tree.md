@@ -1,6 +1,6 @@
 # Tree
 
-## [Home](README.MD)
+## [Home](README.md)
 * [Stack](Stack.md)
 * [Linked List](LinkedList.md)
 * [Tree](Tree.md)
