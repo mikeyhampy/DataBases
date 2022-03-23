@@ -5,6 +5,9 @@
 * [Linked List](LinkedList.md)
 * [Tree](Tree.md)
 
+![image](Pictures/StackBan.png)
+
+
 
 # Problem
 These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
