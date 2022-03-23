@@ -1,4 +1,4 @@
-# Exploring DataBases
+# Exploring DataStructures
 
 ## [Home](README.md)
 * [Stack](Stack.md)
