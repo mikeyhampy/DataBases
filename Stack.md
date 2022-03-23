@@ -18,7 +18,7 @@ All actions used in association to a stack have a speed of O(n). Common uses tha
 ![image](Pictures/Stack_o.png)
 
 # Problem
-These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
+Complete the function in the file to take a sting, and with a Stack, return the string in reverse order.
 
 [Stack Problem](Problems/StackEx.py)
 

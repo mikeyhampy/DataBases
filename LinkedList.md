@@ -42,7 +42,7 @@ The chart below contains common linked list operations and their performance spe
 ![image](Pictures/linked_o.png)
 
 # Problem
-These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
+Use the linked list class in the file below to complete the tasks that are given. Complete problem 1-5 at the bottom.
 
 [Linked List Problem](Problems/LinkedListEx.py)
 

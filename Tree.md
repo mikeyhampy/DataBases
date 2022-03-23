@@ -32,8 +32,7 @@ Removing a node will go the same way with searching for the node like before. On
 
 ![image](Pictures/Tree_o.png)
 # Problem
-These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
-
+Use the tree class in the file below to complete the tasks that are given. Complete problem 1-5 at the bottom.
 [Tree Problem](Problems/TreeEx.py)
 
 # Solution
