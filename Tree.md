@@ -30,7 +30,7 @@ Removing a node will go the same way with searching for the node like before. On
 
 # Common Operations
 
-![image](Pictures/tree_o.png)
+![image](Pictures/Tree_o.png)
 # Problem
 These are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions these are instructions
 
