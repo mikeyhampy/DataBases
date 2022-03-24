@@ -32,7 +32,8 @@ Removing a node will go the same way with searching for the node like before. On
 
 ![image](Pictures/Tree_o.png)
 # Problem
-Use the tree class in the file below to complete the tasks that are given. Complete problem 1-5 at the bottom.
+Starting at the Root to one of the Leaves, create a function to find the path with the highest value possible. Then, finish another function to find the lowest sum. Return the lowest and highest sums possible.
+
 [Tree Problem](Problems/TreeEx.py)
 
 # Solution

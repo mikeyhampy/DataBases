@@ -190,11 +190,12 @@ class LinkedList:
         return output
 
 
-"""
-re-order the linked list inside the function to show the colors of the rainbow in this order:
-[red, orange, yellow, green, blue, indigo, violet]
-Use linked list commands.
-"""
+######################################################
+# re-order the linked list inside the function to    #
+# show the colors of the rainbow in this order:      #
+# [red, orange, yellow, green, blue, indigo, violet] #
+# Use linked list commands.                          #
+######################################################
 
 def impliment_LL(linkedlist):
     """

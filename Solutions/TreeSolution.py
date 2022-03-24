@@ -202,3 +202,107 @@ class BST:
         if node.right is not None:
             count2 += self._get_height(node.right)
         return max(count1, count2)
+
+    def Max_Sum_Leaf(self):
+        """
+        Determine the highest sum possible starting at the head 
+        and going down to one leaf. Return this value.
+        """
+        if self.root is None:
+            return 0, 0
+        else:
+            return self._Max_Sum_Leaf(self.root)  
+
+    ######################################
+    #         Start of Problem 1         #
+    ######################################
+    def _Max_Sum_Leaf(self, node):
+        """
+        Determine the highest sum possible starting at the head 
+        and going down to one leaf. Return this value. Write your 
+        own function here
+        """
+        Sum1 = node.data
+        Sum2 = node.data
+        if node.left is not None:
+            Sum1 += self._Max_Sum_Leaf(node.left)
+        if node.right is not None:
+            Sum2 += self._Max_Sum_Leaf(node.right)
+        return max(Sum1, Sum2)
+    ######################################
+    #          End of Problem 1          #
+    ######################################
+
+    def Min_Sum_Leaf(self):
+        """
+        Determine the highest sum possible starting at the head 
+        and going down to one leaf. Return this value.
+        """
+        if self.root is None:
+            return 0
+        else:
+            return self._Min_Sum_Leaf(self.root)  
+
+    ######################################
+    #         Start of Problem 2         #
+    ######################################
+    def _Min_Sum_Leaf(self, node):
+        """
+        Determine the lowest sum possible starting at the head 
+        and going down to one leaf. Return this value. Write your 
+        own function here
+        """
+        Sum1 = node.data
+        Sum2 = node.data
+        if node.left is not None:
+            Sum1 += self._Min_Sum_Leaf(node.left)
+        if node.right is not None:
+            Sum2 += self._Min_Sum_Leaf(node.right)
+
+        # prevent errors
+        if node.left is None and node.right is not None:
+            Sum1 = Sum2
+        if node.left is not None and node.right is None:
+            Sum2 = Sum1
+        return min(Sum1, Sum2)
+    ######################################
+    #          End of Problem 2          #
+    ######################################
+
+
+tree = BST()
+tree.insert(5)
+tree.insert(3)
+tree.insert(7)
+tree.insert(4)
+tree.insert(10)
+tree.insert(1)
+tree.insert(6)
+
+tree2 = BST()
+tree2.insert(7)
+tree2.insert(4)
+tree2.insert(10)
+tree2.insert(3)
+tree2.insert(5)
+tree2.insert(1)
+tree2.insert(6)
+
+tree3 = BST()
+tree3.insert(4)
+tree3.insert(8)
+tree3.insert(11)
+tree3.insert(5)
+tree3.insert(13)
+tree3.insert(2)
+tree3.insert(1)
+
+print("\n=========== PROBLEM 1 TESTS ===========")
+print(tree.Max_Sum_Leaf())  # Expected 22
+print(tree2.Max_Sum_Leaf()) # Expected 22
+print(tree3.Max_Sum_Leaf()) # Expected 36
+
+print("\n=========== PROBLEM 2 TESTS ===========")
+print(tree.Min_Sum_Leaf()) # Expected 9
+print(tree2.Min_Sum_Leaf()) # Expected 15
+print(tree3.Min_Sum_Leaf()) # Expected 7
