@@ -14,7 +14,7 @@ When pushing items to a stack, visualize stacking one item on top of the other v
 ![image](Pictures/Stack_Chart.png)
 
 # Common Operations
-All actions used in association to a stack have a speed of O(n). Common uses that you'll see is the "undo" button. Your computer saves the recent actions taken and will go back to the most recently performed action.
+All actions used in association to a stack have a speed of O(1). Common uses that you'll see is the "undo" button. Your computer saves the recent actions taken and will go back to the most recently performed action.
 ![image](Pictures/Stack_o.png)
 
 # Problem
